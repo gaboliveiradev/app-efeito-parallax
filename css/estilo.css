@@ -1,0 +1,66 @@
+/* ===] Configurações Iniciais [=== */
+/* -------------------------------- */
+
+body {
+    margin: 0px;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    background-color: #fff;
+    padding: 50px 80px;
+    color: #777;
+    text-align: justify;
+    height: 300px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+/* ===] Efeito Parallax [===*/
+/* ------------------------ */
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    height: 42pc;
+} 
+
+.caixa1 {
+    background-image: url(../image/Imagem1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.caixa2 {
+    background-image: url(../image/Imagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.caixa3 {
+    background-image: url(../image/Imagem3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.caixa4 {
+    background-image: url(../image/Imagem4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
